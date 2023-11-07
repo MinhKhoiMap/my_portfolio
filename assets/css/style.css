@@ -1,0 +1,658 @@
+header {
+  padding: 0 94px !important;
+  height: 170px;
+  z-index: 9999;
+}
+
+header .brand h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 3.8rem !important;
+}
+
+#introduce {
+  user-select: none;
+  padding: 1px 0px 65px 0px;
+  background: linear-gradient(90deg, #4831d4 67%, #ccf381 33%);
+}
+
+#introduce .main_content {
+  margin-top: 190px;
+}
+
+#introduce .subject-title {
+  color: #ccf381;
+  font-size: 6.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "SF UI Text Heavy";
+}
+
+#introduce .my_name .subject-title {
+  text-transform: capitalize;
+  font-size: 5rem;
+}
+
+#introduce span {
+  font-size: inherit;
+}
+
+#introduce .description {
+  font-size: 2rem;
+  font-family: "SF UI Text Medium";
+}
+
+#introduce .avatar.avatar--mobile {
+  padding-top: 100px !important;
+  transform: translateX(-30%);
+}
+
+#introduce .avatar figure {
+  width: 355px;
+  height: 375px;
+  border: 2px solid #fff;
+  position: relative;
+}
+
+#introduce .avatar svg {
+  width: 250%;
+  height: 126%;
+  top: -20%;
+  left: -286px;
+  z-index: 1;
+}
+
+#introduce .avatar figure img {
+  margin-left: -27px;
+  margin-top: -30px;
+  width: inherit;
+  height: inherit;
+  position: relative;
+  z-index: 2;
+}
+
+#introduce > svg {
+  margin-left: -125px;
+  top: 165px;
+  left: 0px;
+}
+
+#introduce .some_things_about_me p {
+  font-size: 1.6rem;
+  color: #ccf381;
+  text-shadow: 0 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+#ability {
+  min-height: 100vh;
+}
+
+#ability > div {
+  margin-top: 60px;
+}
+
+#ability > div:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+#ability > div h2 {
+  font-size: 6.2rem;
+  font-family: "SF UI Text Heavy";
+  color: #4831d4;
+}
+
+#ability > div p {
+  margin-top: 16px;
+  color: #3d155f;
+  font-size: 1.7rem;
+  text-align: justify;
+  line-height: 1.7;
+  font-family: "SF UI Text Medium";
+}
+
+#ability > div p::first-letter {
+  font-size: 2.8rem;
+  margin-right: 8px;
+  font-family: "Pacifico";
+  font-weight: 600;
+}
+
+#ability > div .square-of-dots {
+  width: 123px;
+  height: 139px;
+  position: absolute;
+  top: -62px;
+  right: 35%;
+  z-index: -1;
+}
+
+#ability > div .cs-pattern-right {
+  width: 357px;
+  height: 228px;
+}
+
+#ability > div .cs-pattern-left {
+  margin-top: 20%;
+  margin-left: 30%;
+  width: 200px;
+  height: 205px;
+}
+
+#my_expertise {
+  padding-top: 60px;
+  min-height: 100vh;
+  background: #1a191d;
+}
+
+#my_expertise::selection {
+  background: #fff !important;
+}
+
+#my_expertise h2 {
+  font-family: "SF UI Text Heavy";
+  font-size: 7.5rem;
+  color: #ccf381;
+}
+
+#my_expertise .title h3 {
+  margin-left: 24px;
+  font-size: 2.6rem;
+  line-height: 1.4;
+  color: #fff;
+}
+
+#my_expertise .my_expertise_items {
+  margin-top: 40px;
+}
+
+#my_expertise .my_expertise_items > div {
+  padding: 40px 30px 30px;
+  border: 1.5px solid #a3a3a3;
+}
+
+#my_expertise .my_expertise_items .desc {
+  margin-top: 16px;
+  padding-left: 36px;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-family: "SF UI Text Medium";
+  position: relative;
+}
+
+#my_expertise .my_expertise_items .desc::before {
+  content: var(--tag_open);
+  margin-left: -35px;
+  font-family: "SF UI Text Bold Italic";
+  color: var(--underlinecolor);
+}
+
+#my_expertise .my_expertise_items .desc::after {
+  content: var(--tag_close);
+  margin-left: -35px;
+  font-family: "SF UI Text Bold Italic";
+  color: var(--underlinecolor);
+}
+
+#my_expertise .my_expertise_items .desc span {
+  width: 3px;
+  height: calc(100% - 30px * 2);
+  background: linear-gradient(
+    65deg,
+    var(--underlinecolor) 0%,
+    var(--underlinecolor) 100%,
+    rgba(255, 209, 0, 0) 100%
+  );
+  display: block;
+  border-radius: 50px;
+  position: absolute;
+  left: 18px;
+  top: 32px;
+}
+
+#my_expertise .my_expertise_items .desc p {
+  margin-left: 10px;
+  margin-bottom: 0 !important;
+}
+
+#my_expertise .my_expertise_items > div:last-child {
+  color: #fff;
+  border: none;
+}
+
+#my_expertise .my_expertise_items > div:last-child div {
+  padding: 0 16px;
+  border-left: 8px solid #b7f;
+}
+
+#my_expertise .my_expertise_items div:last-child blockquote {
+  font-size: 2.5rem;
+  font-family: "SF UI Text Bold";
+  line-height: 1.4;
+  position: relative;
+}
+
+#my_expertise .my_expertise_items div:last-child footer {
+  font-size: 1.7rem;
+  font-family: "SF UI Text Medium Italic";
+  margin-top: 10px;
+}
+
+#my_expertise img:nth-child(1) {
+  opacity: 0.2;
+  margin-top: -100px;
+  margin-right: -120px;
+  border-radius: 50%;
+}
+
+#my_expertise img:nth-child(2) {
+  opacity: 0.2;
+  margin-top: -20px;
+}
+
+#my_skill_bag {
+  padding: 40px 0;
+  min-height: 100vh;
+  background-color: #462cd7;
+}
+
+#my_skill_bag > div {
+  padding-top: 80px;
+}
+
+#my_skill_bag h2 {
+  color: #ccf47a;
+  font-size: 6.5rem;
+  font-family: "SF UI Text Heavy";
+}
+
+#my_skill_bag .note {
+  font-size: 1.6rem;
+  font-family: "SF UI Text Medium";
+  color: #fff;
+  position: relative;
+}
+
+#my_skill_bag .note::after {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  width: 40px;
+  height: 5px;
+  border-radius: 20px;
+  background: hwb(80 48% 4%);
+  transform: translateX(-50%);
+}
+
+#my_skill_bag .card {
+  cursor: pointer;
+  margin: 20px 16px;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 5px 8px 10px rgba(255, 255, 255, 0.4);
+}
+
+#my_skill_bag .card:hover {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  box-shadow: none;
+  border: none;
+}
+
+#my_skill_bag .card .card-body {
+  width: 100%;
+  color: #fff;
+  letter-spacing: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0 !important;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: calc(100% + 1px);
+  z-index: 1;
+  text-align: center;
+  border-bottom-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
+#my_skill_bag .card .card-body .card-title {
+  margin: 0 !important;
+  text-shadow: 0 0 4px #1a191d;
+}
+
+#my_skill_bag .card:hover .card-body {
+  padding: 6px 0px !important;
+  visibility: visible;
+  opacity: 1;
+}
+
+#my_projects {
+  padding: 60px 0;
+  min-height: 100vh;
+  /* background: #1a191d; */
+  /* overflow-y: auto;
+  overflow-x: hidden; */
+}
+
+#my_projects h2 {
+  border-right: 10px solid #ccf47a;
+  margin-bottom: 40px;
+  font-family: "SF UI Text Heavy";
+  font-size: 5rem;
+  color: #4831d4;
+  overflow: hidden;
+}
+
+#my_projects h2 span {
+  color: #ccf381;
+  -webkit-text-stroke: 2px #4831d4;
+}
+
+/* #my_projects h2::before {
+  content: "";
+  width: 500px;
+  height: 500px;
+  background-color: #462cd7;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  z-index: 2;
+  transform: translate(50%, -50%);
+  border-radius: 50%;
+  animation: scaleup 2s ease-in forwards;
+} */
+
+#my_projects .card {
+  margin-top: 6px !important;
+  margin-bottom: 6px !important;
+  overflow: hidden;
+}
+
+#my_projects .card-link {
+  background-color: #201f23;
+}
+
+#my_projects .card-link img {
+  object-fit: cover;
+  object-position: center;
+}
+
+#my_projects .card-body {
+  background-color: #201f23;
+  color: #fff;
+  position: relative;
+}
+
+#my_projects .card-body .card-title {
+  font-family: "SF UI Text Bold";
+  font-size: 2.2rem;
+}
+
+#my_projects .card-body .card-subtitle {
+  font-family: "SF UI Text Semibold";
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.75);
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+#my_projects .card-body .card-link {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  font-family: "SF UI Text Semibold";
+  font-size: 1.4rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+#my_projects .card-body .card-link:hover {
+  color: #ccf47a;
+}
+
+#my_projects .card-body .card-link:hover::before {
+  background-color: currentColor;
+}
+
+#my_projects .card-body .card-link::before {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.75);
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform: translateY(-45%);
+}
+
+#my_projects .card:hover .card-body .card-subtitle {
+  transform: translateY(-100%);
+  visibility: hidden;
+  opacity: 0;
+}
+
+#my_projects .card:hover .card-body .card-link {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-100%);
+}
+
+#experience {
+  padding: 80px 0;
+  min-height: 100vh;
+  background: #fff;
+}
+
+#experience h2 {
+  color: #ccf381;
+  font-size: 6.2rem;
+  font-family: "SF UI Text Bold";
+}
+
+#experience .banner {
+  min-height: 54px;
+  padding: 15px 16px;
+  cursor: pointer;
+  background: #4831d4;
+}
+
+#experience .banner .collapse-icon {
+  position: relative;
+}
+
+#experience .banner .collapse-icon i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-in-out;
+}
+
+#experience .banner .collapse-icon i:last-child {
+  visibility: hidden;
+}
+
+#experience .banner[aria-expanded="true"] .collapse-icon i:last-child {
+  visibility: visible;
+  transform: translate(-1px, calc(-50% + 1px)) rotate(90deg);
+}
+
+#experience .banner[aria-expanded="true"] .collapse-icon i:first-child {
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+#experience .banner,
+#experience .experience-item {
+  max-width: 750px;
+  font-size: 1.7rem;
+  color: #fff;
+  font-family: "SF UI Text Medium";
+  overflow: hidden;
+}
+
+#experience .experience-item > div {
+  margin: 0 !important;
+  padding: 12px !important;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#experience .experience-item .tag {
+  padding: 4px 16px;
+  width: fit-content;
+  background-color: rgba(204, 243, 129, 0.8);
+}
+
+#experience .experience-item img {
+  max-height: 92px;
+  object-fit: contain;
+}
+
+#contact {
+  padding: 160px 0 60px;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #ccf381 17%, #fff 73%);
+}
+
+#contact .last-speech {
+  font-size: 2rem;
+  font-family: "SF UI Text Bold";
+  text-align: justify;
+}
+
+#contact .social-info .email {
+  display: inline-block;
+  width: fit-content;
+  margin-top: 60px;
+  font-size: 2.7rem;
+  font-family: "SF UI Text Semibold";
+  color: #0e0e0e;
+}
+
+#contact .social-info .email:hover {
+  color: #fff;
+}
+
+#contact .social-info .email:hover.chonky_underline::after {
+  height: 100%;
+}
+
+#contact .social-info .group-other {
+  margin-top: 120px;
+}
+
+#contact .social-info .group-other a {
+  margin: 10px 0;
+  width: fit-content;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 3rem;
+}
+
+#contact .social-info .group-other a span {
+  margin-left: 10px;
+  font-size: 1.6rem;
+  overflow: hidden;
+  display: inline-block;
+  text-wrap: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(-16px);
+  transition: all 0.2s ease-in 0.14s;
+  font-family: "SF UI Text Semibold";
+}
+
+#contact .social-info .group-other a:hover {
+  color: #ff6b2b;
+}
+
+#contact .social-info .group-other a:hover span {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+#contact .send-message h3 {
+  color: #4831d4;
+  font-size: 5rem;
+  font-family: "SF UI Text Bold";
+}
+
+#contact .send-message p {
+  font-size: 2.5rem;
+}
+
+/* #contact .send-message .group-input {
+  position: relative;
+} */
+
+#contact .send-message label {
+  width: calc(100% - 10px);
+  display: block !important;
+  font-size: 1.8rem;
+  color: rgba(61, 21, 95, 0.5);
+  bottom: 0;
+  transform: translate(10px, -20%);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+/* rgba(72, 49, 212, 0.5) */
+
+#contact .send-message input {
+  padding: 4px 10px 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(61, 21, 95, 0.5);
+  outline: none;
+  font-size: 1.6rem;
+  color: rgba(61, 21, 95, 0.5);
+  font-family: "SF UI Text Light Italic";
+  transition: all 0.2s ease-in;
+}
+
+#contact .send-message input:focus {
+  color: #4831d4;
+  border-color: currentColor;
+}
+
+#contact .send-message input:focus ~ label {
+  transform: translate(0, -110%);
+  color: #4831d4;
+  font-style: italic;
+}
+
+#main-menu {
+  bottom: 67px;
+  right: 57px;
+  z-index: 9999;
+}
+
+#main-menu a {
+  display: inline-block;
+  color: currentColor;
+  width: 10px;
+  height: 10px;
+  background-color: currentColor;
+  transform: rotate(-45deg);
+  transition: all 0.2s linear;
+  will-change: transform;
+}
+
+#main-menu a:not(:first-child) {
+  margin-top: 16px;
+}
+
+#main-menu a.current {
+  background-color: transparent;
+  border: 2px solid currentColor;
+  border-radius: 2px;
+  transform: rotate(0) scale(1.2);
+}
+
+/* cff47a
+4831d4
+ */

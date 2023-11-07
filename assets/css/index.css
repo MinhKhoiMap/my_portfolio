@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@font-face {
+  font-family: "SF UI Text Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Regular"),
+    url("../fonts/font_primary/SFUIText-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Italic"),
+    url("../fonts/font_primary/SFUIText-RegularItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Light"),
+    url("../fonts/font_primary/SFUIText-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Light Italic"),
+    url("../fonts/font_primary/SFUIText-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Medium"),
+    url("../fonts/font_primary/SFUIText-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text Medium Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Medium Italic"),
+    url("../fonts/font_primary/SFUIText-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Semibold"),
+    url("../fonts/font_primary/SFUIText-Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text Semibold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Semibold Italic"),
+    url("../fonts/font_primary/SFUIText-SemiboldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Bold"),
+    url("../fonts/font_primary/SFUIText-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Bold Italic"),
+    url("../fonts/font_primary/SFUIText-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Heavy"),
+    url("../fonts/font_primary/SFUIText-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text Heavy Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Text Heavy Italic"),
+    url("../fonts/font_primary/SFUIText-HeavyItalic.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "SF UI Text Regular";
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+*::selection {
+  background: #fcb3bf !important;
+}
+
+/* body::-webkit-scrollbar {
+  display: none;
+} */
+
+@keyframes wavy {
+  0%,
+  100% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  #introduce {
+    background: linear-gradient(180deg, #4831d4 67%, #ccf381 33%) !important;
+  }
+
+  #contact {
+    background: linear-gradient(180deg, #ccf381 10%, #4831d4 67%) !important;
+  }
+
+  body header {
+    padding: 0 60px !important;
+  }
+}
+
+.chonky_underline {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.chonky_underline::after {
+  content: "";
+  width: calc(100% + 8px);
+  height: 10px;
+  transition: all 0.1s ease-in-out;
+  background: linear-gradient(
+    65deg,
+    var(--underlinecolor) 0%,
+    var(--underlinecolor) 100%,
+    rgba(255, 209, 0, 0) 100%
+  );
+  position: absolute;
+  bottom: 0;
+  left: -4px;
+  z-index: -1;
+}
